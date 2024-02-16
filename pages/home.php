@@ -26,28 +26,30 @@
         <!-- Features Start -->
         <?php require_once("components/features.php") ?>
         <!-- Features End -->
-
         <!-- Service Start -->
         <?php require_once("components/services.php") ?>
         <!-- Service End -->
-        <!-- Service Start -->
-        <?php require_once("components/chart.php") ?>
+        <!-- chart Start -->
+        <?php #require_once("components/chart.php") ?>
+        <!-- chart End -->
+        <!-- stats Start -->
         <?php require_once("components/stats.php") ?>
-        <?php require_once("components/slide-partner.php") ?>
-        <!-- Service End -->
+        <!-- stats End -->
+       
         <?php require_once("components/choose-us.php") ?>
         <!-- Choose Us End -->
         <!-- Video Start -->
         <?php require_once("components/video-section.php") ?>
         <!-- Video End -->
-
+        <!-- client Start -->
         <?php require_once("components/slide-client.php") ?>
-        
-
+        <!-- client End -->
         <!-- Testimonial Start  -->
         <?php require_once("components/tweet.php") ?>
         <!-- Testimonial End  -->
-
+         <!-- partner Start -->
+         <?php require_once("components/slide-partner.php") ?>
+        <!-- partner End -->
         <!-- Contact Start -->
         <?php require_once("components/contact.php") ?>
         <!-- Contact End -->

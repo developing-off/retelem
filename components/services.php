@@ -57,7 +57,7 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                            <img src="assets/images/icons/cctv.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>

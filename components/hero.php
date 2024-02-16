@@ -4,16 +4,8 @@
         class="section techwix-hero-section-04 d-flex align-items-center"
         style="background-image: url(assets/images/bg/hero-bg.jpg)"
       >
-        <img
-          class="shape-1"
-          src="assets/images/shape/hero4-shape1.png"
-          alt=""
-        />
-        <img
-          class="shape-2"
-          src="assets/images/shape/hero4-shape2.png"
-          alt=""
-        />
+        
+       
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12">
