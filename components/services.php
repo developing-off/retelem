@@ -1,4 +1,7 @@
-<div class="section techwix-service-section-04 section-padding">
+
+   
+
+<div style=" padding-bottom: 0px!important;" class="section techwix-service-section-04 section-padding">
     <div class="container">
         <!-- Service Wrap Start -->
         <div class="service-wrap">
@@ -64,7 +67,62 @@
                                     </div>
                                     <!-- Choose Us Item End -->
                                 </div>
-
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <!-- Choose Us Item Start -->
+                                    <div class="choose-us-item-02">
+                                        <div class="choose-us-img">
+                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                        </div>
+                                        <div class="choose-us-content">
+                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
+                                                an entire.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Choose Us Item End -->
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <!-- Choose Us Item Start -->
+                                    <div class="choose-us-item-02">
+                                        <div class="choose-us-img">
+                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                        </div>
+                                        <div class="choose-us-content">
+                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
+                                                an entire.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Choose Us Item End -->
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <!-- Choose Us Item Start -->
+                                    <div class="choose-us-item-02">
+                                        <div class="choose-us-img">
+                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                        </div>
+                                        <div class="choose-us-content">
+                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
+                                                an entire.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Choose Us Item End -->
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <!-- Choose Us Item Start -->
+                                    <div class="choose-us-item-02">
+                                        <div class="choose-us-img">
+                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                        </div>
+                                        <div class="choose-us-content">
+                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
+                                                an entire.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Choose Us Item End -->
+                                </div>
 
                                 <div class="col-xl-3 col-lg-4 col-md-6">
                                     <!-- Choose Us Item Start -->

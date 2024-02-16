@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="main-wrapper">
+    <div class="main-wrapper" id="home">
         <!-- Preloader start -->
         <div id="preloader">
             <div class="preloader">

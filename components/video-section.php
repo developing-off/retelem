@@ -1,7 +1,7 @@
 <div class="section techwix-video-section">
             <div class="container">
                 <!-- Video Wrap Start -->
-                <div class="video-wrap" style="background-image: url('site components/IMG_20231224_151515.jpg')">
+                <div class="video-wrap" style="background-image: url('assets/images/bg/vid-bg.jpg')">
                   
                     <div class="shape-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="602px" height="640px">
@@ -28,7 +28,7 @@
                             </h2>
                         </div>
                         <div class="play-btn-02">
-                            <a class="popup-video" href="<?=$base_url?>site components/Sequence 05.mp4"><i class="fas fa-play"></i></a>
+                            <a class="popup-video" href="<?=$base_url?>/assets/video/Sequence.mp4"><i class="fas fa-play"></i></a>
                         </div>
                     </div>
                     <!-- Video Content End -->
