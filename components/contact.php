@@ -1,3 +1,93 @@
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require "assets/vendor/phpmailer/phpmailer/src/Exception.php";
+require "assets/vendor/phpmailer/phpmailer/src/PHPMailer.php";
+require "assets/vendor/phpmailer/phpmailer/src/SMTP.php";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $sujet = $_POST['sujet'];
+
+    $mail = new PHPMailer(true);
+
+    try {
+        $mail->isSMTP();
+        $mail->Host       = 'mail.retelem-dz.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'farid.sarni@retelem-dz.com';
+        $mail->Password   = 'Poulpevolant31/';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
+
+        $mail->setFrom($email, $name);
+        $mail->addAddress('farid.sarni@retelem-dz.com', 'farid.sarni@retelem-dz.com');
+
+        $mail->isHTML(true);
+        $mail->Subject = 'Contact Us Form Submission';
+        $mail->Body    = 'Name: $name<br>Email: $email<br>Message: $message
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Nouveau Message</title>
+      <!--[if mso]><style type="text/css">body, table, td, a { font-family: Arial, Helvetica, sans-serif !important; }</style><![endif]-->
+    </head>
+    
+    <body style="font-family: Helvetica, Arial, sans-serif; margin: 0px; padding: 0px; background-color: #ffffff;">
+      <table role="presentation"
+        style="width: 100%; border-collapse: collapse; border: 0px; border-spacing: 0px; font-family: Arial, Helvetica, sans-serif; background-color: rgb(239, 239, 239);">
+        <tbody>
+          <tr>
+            <td align="center" style="padding: 1rem 2rem; vertical-align: top; width: 100%;">
+              <table role="presentation" style="max-width: 600px; border-collapse: collapse; border: 0px; border-spacing: 0px; text-align: left;">
+                <tbody>
+                  <tr>
+                    <td style="padding: 40px 0px 0px;">
+                      
+                      <div style="padding: 20px; background-color: rgb(255, 255, 255);">
+                        <div style="color: rgb(0, 0, 0); text-align: left;">
+                          <h1 style="margin: 1rem 0">Un Nouveau Message de contact form</h1>
+                          <h2>sujet: ' . $sujet . '</h2>
+                          <strong>de: ' . $email . '</strong>
+                          <p style="padding-bottom: 16px">nom: ' . $name . '</p>
+                          <p style="padding-bottom: 16px">message: ' . $message . '</p>
+              
+                          
+                        </div>
+                      </div>
+                      
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </body>
+    
+    </html>';
+        $mail->send();
+        $stat = "Votre message a été envoyé avec succès";
+        #echo 'Message has been sent successfully';
+       
+    } catch (Exception $e) {
+        $stat = "error";
+        #echo "Error sending message: {$mail->ErrorInfo}";
+        
+    }
+}
+?>
+
+
 <div class="section techwix-contact-section techwix-contact-section-02 section-padding">
     <div class="container">
         <!-- Contact Wrap Start -->
@@ -63,33 +153,39 @@
                             <div class="heading-wrap text-center">
                                 <span class="sub-title">Laisse nous un message</span>
                             </div>
-                            <form action="#">
+                             <?php if (isset($stat)) : ?>
+                                <div class="alert alert-success" role="alert">
+                                    <?= $stat ?>
+                                </div>
+                            <?php endif; ?>
+                            
+                            <form method="post">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <!-- Single Form Start -->
                                         <div class="single-form">
-                                            <input type="text" placeholder="Name *" />
+                                            <input name="name" type="text" placeholder="Name *" />
                                         </div>
                                         <!-- Single Form End -->
                                     </div>
                                     <div class="col-sm-6">
                                         <!-- Single Form Start -->
                                         <div class="single-form">
-                                            <input type="email" placeholder="Email *" />
+                                            <input name="email" type="email" placeholder="Email *" />
                                         </div>
                                         <!-- Single Form End -->
                                     </div>
                                     <div class="col-sm-12">
                                         <!-- Single Form Start -->
                                         <div class="single-form">
-                                            <input type="text" placeholder="Subject *" />
+                                            <input name="sujet" type="text" placeholder="Subject *" />
                                         </div>
                                         <!-- Single Form End -->
                                     </div>
                                     <div class="col-sm-12">
                                         <!-- Single Form Start -->
                                         <div class="single-form">
-                                            <textarea placeholder="Write A Message"></textarea>
+                                            <textarea name="message" placeholder="Write A Message"></textarea>
                                         </div>
                                         <!-- Single Form End -->
                                     </div>
