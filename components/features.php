@@ -1,8 +1,4 @@
-<style>
-    .features-wrap {
-        margin-top: -110px;
-    }
-</style>
+
 <div class="section techwix-features-section">
     <div class="container">
         <!-- Features Wrap Start -->
@@ -12,7 +8,7 @@
                     <!-- Features Item Start -->
                     <div class="features-item" style="background-image: url(assets/images/bg/feat-bg.jpg)">
                         <div class="features-icon">
-                            <img src="assets/images/feat-1.png" alt="" />
+                            <img src="assets/images/icons/feat-1.png" alt="" />
                         </div>
                         <div class="features-content">
                             <h3 class="title">
@@ -26,7 +22,7 @@
                     <!-- Features Item Start -->
                     <div class="features-item" style="background-image: url(assets/images/bg/feat-bg.jpg)">
                         <div class="features-icon">
-                            <img src="assets/images/feat-2.png" alt="" />
+                            <img src="assets/images/icons/feat-2.png" alt="" />
                         </div>
                         <div class="features-content">
                             <h3 class="title">
@@ -40,7 +36,7 @@
                     <!-- Features Item Start -->
                     <div class="features-item" style="background-image: url(assets/images/bg/feat-bg.jpg)">
                         <div class="features-icon">
-                            <img src="assets/images/feat-3.png" alt="" />
+                            <img src="assets/images/icons/feat-3.png" alt="" />
                         </div>
                         <div class="features-content">
                             <h3 class="title">

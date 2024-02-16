@@ -27,26 +27,10 @@
                 <!-- Header Cart Start -->
 
                 <!-- Header Cart End -->
-                <!-- Header Search Start -->
-                <div class="header-search">
-                    <a class="search-btn" href="#"><i class="flaticon-loupe"></i></a>
-                    <div class="search-wrap">
-                        <div class="search-inner">
-                            <i id="search-close" class="flaticon-close search-close"></i>
-                            <div class="search-cell">
-                                <form action="#">
-                                    <div class="search-field-holder">
-                                        <input class="main-search-input" type="search" placeholder="Search Your Keyword..." />
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Header Search End -->
+                
 
                 <div class="header-btn d-none d-xl-block">
-                    <a class="btn" href="login-register.html">Get Started</a>
+                    <a class="btn" href="#contact">contactez-nous</a>
                 </div>
                 <!-- Header Toggle Start -->
                 <div class="header-toggle d-lg-none">

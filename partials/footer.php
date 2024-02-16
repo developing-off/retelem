@@ -7,11 +7,7 @@
                     <!-- Footer Widget Start -->
                     <div class="footer-widget-about">
                         <a class="footer-logo" href="index.html"><img src="assets/images/logo.png" alt="Logo" /></a>
-                        <p>
-                            Accelerate innovation with world-class tech teams We’ll
-                            match you to an entire remote team of incredible freelance
-                            talent.
-                        </p>
+                      
                         <div class="footer-social">
                             <ul class="social">
                                 <li>
@@ -20,6 +16,12 @@
 
                                 <li>
                                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
                                 </li>
                             </ul>
                         </div>

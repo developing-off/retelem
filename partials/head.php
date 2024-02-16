@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="<?= $base_url ?>assets/css/plugins/swiper-bundle.min.css" />
     <link rel="stylesheet" href="<?= $base_url ?>assets/css/plugins/aos.css" />
     <link rel="stylesheet" href="<?= $base_url ?>assets/css/plugins/magnific-popup.css" />
-
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="<?= $base_url ?>assets/css/style.css" />
 

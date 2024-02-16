@@ -32,6 +32,8 @@
         <!-- Service End -->
         <!-- Service Start -->
         <?php require_once("components/chart.php") ?>
+        <?php require_once("components/stats.php") ?>
+        <?php require_once("components/slide-partner.php") ?>
         <!-- Service End -->
         <?php require_once("components/choose-us.php") ?>
         <!-- Choose Us End -->
