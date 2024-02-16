@@ -1,4 +1,4 @@
-<div id="about-us" class="section techwix-choose-us-section-02 section-padding-02" style="background-image: url(assets/images/bg/choose-us-bg2.jpg)">
+<div id="why-us"  class="section techwix-choose-us-section-02 section-padding-02" style="background-image: url(assets/images/bg/choose-us-bg2.jpg)">
             <div class="container">
                 <!-- Choose Us Wrap Start -->
                 <div class="choose-us-wrap">

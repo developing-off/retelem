@@ -1,6 +1,6 @@
 
 
-<div class="section techwix-brand-section techwix-brand-section-03 techwix-brand-section-04 section-padding">
+<div id="partner" class="section techwix-brand-section techwix-brand-section-03 techwix-brand-section-04 section-padding">
     <div class="container">
         <!-- Brand Wrapper Start -->
         <div class="brand-wrapper text-center">

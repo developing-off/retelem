@@ -1,52 +1,67 @@
-<div class="section techwix-cta-section-04 section-padding" style="background-image: url(assets/images/bg/cta-bg3.jpg);">
-            <div class="container">
-                <div class="cta-wrap">
-                    <div class="row align-items-center">
-                        <div class="col-lg-7">
-                            <!-- Cta Left Start -->
-                            <div class="cta-left">
-                                <div class="section-title">
-                                    <h2 class="title white">Nous Statistiques </h2>
-                                </div>
-                                
-                            </div>
-                            <!-- Cta Left End -->
+<style>
+    .techwix-counter-section-02 {
+
+
+        padding-bottom: 100px;
+    }
+</style>
+<div class="section techwix-counter-section">
+    <div class="container">
+        <div class="counter-wrap">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Counter Start -->
+                    <div class="single-counter">
+                        <div class="counter-img">
+                            <img src="assets/images/counter-1.png" alt="">
                         </div>
-                        <div class="col-lg-5">
-                            <!-- Cta Right Start -->
-                            <div class="cta-right">
-                                <div class="counter-item-box">
-                                    <!-- Cta Item Start -->
-                                    <div class="counter-item">
-                                        <span class="counter">1790</span>
-                                        <p>Happy clients</p>
-                                    </div>
-                                    <!-- Cta Item End -->
-                                    <!-- Cta Item Start -->
-                                    <div class="counter-item counter-1">
-                                        <span class="counter">245</span>
-                                        <p>Happy clients</p>
-                                    </div>
-                                    <!-- Cta Item End -->
-                                </div>
-                                <div class="counter-item-box">
-                                    <!-- Cta Item Start -->
-                                    <div class="counter-item">
-                                        <span class="counter">491</span>
-                                        <p>Finished projects</p>
-                                    </div>
-                                    <!-- Cta Item End -->
-                                    <!-- Cta Item Start -->
-                                    <div class="counter-item counter-2">
-                                        <span class="counter">1090</span>
-                                        <p>Media Posts</p>
-                                    </div>
-                                    <!-- Cta Item End -->
-                                </div>
-                            </div>
-                            <!-- Cta Right End -->
+                        <div class="counter-content">
+                            <span class="counter">1790</span>
+                            <p>Happy clients</p>
                         </div>
                     </div>
+                    <!-- Single Counter End -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Counter Start -->
+                    <div class="single-counter">
+                        <div class="counter-img">
+                            <img src="assets/images/counter-2.png" alt="">
+                        </div>
+                        <div class="counter-content">
+                            <span class="counter">491</span>
+                            <p>Finished projects</p>
+                        </div>
+                    </div>
+                    <!-- Single Counter End -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Counter Start -->
+                    <div class="single-counter">
+                        <div class="counter-img">
+                            <img src="assets/images/counter-3.png" alt="">
+                        </div>
+                        <div class="counter-content">
+                            <span class="counter">245</span>
+                            <p>Skilled Experts</p>
+                        </div>
+                    </div>
+                    <!-- Single Counter End -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <!-- Single Counter Start -->
+                    <div class="single-counter">
+                        <div class="counter-img">
+                            <img src="assets/images/counter-1.png" alt="">
+                        </div>
+                        <div class="counter-content">
+                            <span class="counter">1090</span>
+                            <p>Media Posts</p>
+                        </div>
+                    </div>
+                    <!-- Single Counter End -->
                 </div>
             </div>
         </div>
+    </div>
+</div>

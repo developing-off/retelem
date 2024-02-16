@@ -26,7 +26,7 @@
         <!-- Features Start -->
         <?php require_once("components/features.php") ?>
         <!-- Features End -->
-      
+
         <!-- Service Start -->
         <?php require_once("components/services.php") ?>
         <!-- Service End -->
@@ -40,6 +40,10 @@
         <!-- Video Start -->
         <?php require_once("components/video-section.php") ?>
         <!-- Video End -->
+
+        <?php require_once("components/slide-client.php") ?>
+        
+
         <!-- Testimonial Start  -->
         <?php require_once("components/tweet.php") ?>
         <!-- Testimonial End  -->

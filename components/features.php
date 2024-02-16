@@ -1,5 +1,5 @@
 
-<div class="section techwix-features-section">
+<div id="about-us" class="section techwix-features-section">
     <div class="container">
         <!-- Features Wrap Start -->
         <div class="features-wrap">

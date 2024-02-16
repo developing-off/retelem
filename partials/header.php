@@ -9,7 +9,7 @@
 
             <div class="header-menu d-none d-lg-block">
                 <ul class="main-menu">
-                    <li class="active-menu">
+                    <li >
                         <a href="#home">ACCUEIL</a>
                     </li>
                     <li>
@@ -17,6 +17,9 @@
                     </li>
                     <li>
                         <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#client">Nos-Client</a>
                     </li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -65,7 +68,7 @@
         <div class="offcanvas-menu">
             <ul class="main-menu">
 
-                <li class="active-menu">
+                <li >
                     <a href="#home">ACCUEIL</a>
                 </li>
                 <li>
@@ -81,3 +84,27 @@
     <!-- Offcanvas Body End -->
 </div>
 <!-- Offcanvas End -->
+<script>
+        // Add active class to the navigation link based on scroll position
+        window.addEventListener('scroll', function () {
+            var headerLinks = document.querySelectorAll('.header-menu .main-menu li a');
+            
+            headerLinks.forEach(function (link) {
+                var targetId = link.getAttribute('href').substring(1);
+                var targetSection = document.getElementById(targetId);
+                
+                if (targetSection) {
+                    var position = targetSection.getBoundingClientRect();
+
+                    if (position.top <= 50 && position.bottom >= 50) {
+                        // Section is in view
+                        headerLinks.forEach(function (otherLink) {
+                            otherLink.parentNode.classList.remove('active-menu');
+                        });
+
+                        link.parentNode.classList.add('active-menu');
+                    }
+                }
+            });
+        });
+    </script>
