@@ -11,17 +11,17 @@
                         <div class="footer-social">
                             <ul class="social">
                                 <li>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.facebook.com/retelemdz"><i class="fab fa-facebook-f"></i></a>
                                 </li>
 
                                 <li>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.linkedin.com/company/epe-retelem-spa/"><i class="fab fa-linkedin-in"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.instagram.com/epe__retelem__spa/"><i class="fab fa-instagram"></i></a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.youtube.com/@EPERETELEMSPA"><i class="fab fa-youtube"></i></a>
                                 </li>
                             </ul>
                         </div>

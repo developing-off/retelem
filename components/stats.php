@@ -16,7 +16,7 @@
                             <img src="assets/images/client.png" alt="">
                         </div>
                         <div class="counter-content">
-                            <span class="counter">1790</span>
+                            <span class="counter">500</span>
                             <p>Clients satisfait</p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
                             <img src="assets/images/certif.png" alt="">
                         </div>
                         <div class="counter-content">
-                            <span class="counter">245</span>
+                            <span class="counter">50</span>
                             <p>Employés certifiés</p>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             <img src="assets/images/chiffre.png" alt="">
                         </div>
                         <div class="counter-content">
-                            <span class="counter">245</span>
+                            <span class="counter">1.81</span>M
                             <p>Chiffre d'affaire</p>
                         </div>
                     </div>

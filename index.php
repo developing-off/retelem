@@ -25,9 +25,12 @@ if (empty($_GET)) {
         case "home":
             include 'pages/home.php';
             break;
+            case "success":
+            include 'pages/home.php';
+            break;
        
         default:
-            include 'pages/errors/404.php';
+            include 'pages/home.php';
             break;
     }
 }

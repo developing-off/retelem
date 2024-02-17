@@ -79,6 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
        
         $stat = "Votre message a été envoyé avec succès";
         #echo 'Message has been sent successfully';
+        echo "<script>window.location.href = '{$base_url}success'; </script>";
        
     } catch (Exception $e) {
         $stat = "error";
@@ -154,9 +155,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <div class="heading-wrap text-center">
                                 <span class="sub-title">Laissez nous un message</span>
                             </div>
-                             <?php if (isset($stat)) : ?>
+                             <?php  if (isset($url[0])) : ?>
                                 <div class="alert alert-success" role="alert">
-                                    <?= $stat ?>
+                                    <?= 'Votre message a été envoyé avec succès' ?>
                                 </div>
                             <?php endif; ?>
 
