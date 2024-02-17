@@ -1,7 +1,7 @@
 
    
 
-<div id="services" style=" padding-bottom: 0px!important;" class="section techwix-service-section-04 section-padding">
+<div  style=" padding-bottom: 0px!important;" class="section techwix-service-section-04 section-padding">
     <div class="container">
         <!-- Service Wrap Start -->
         <div class="service-wrap">
@@ -57,10 +57,24 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
+                                            <img src="assets/images/icons/phone.png" alt="">
+                                        </div>
+                                        <div class="choose-us-content">
+                                            <h3 class="title"><a href="#">Telphonie</a></h3>
+                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
+                                                an entire.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Choose Us Item End -->
+                                </div>
+                                <div class="col-xl-3 col-lg-4 col-md-6">
+                                    <!-- Choose Us Item Start -->
+                                    <div class="choose-us-item-02">
+                                        <div class="choose-us-img">
                                             <img src="assets/images/icons/cctv.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <h3 class="title"><a href="#">Videosurveillance</a></h3>
                                             <p>Accelerate innovation with world-class tech teams We’ll match you to
                                                 an entire.</p>
                                         </div>
@@ -71,10 +85,10 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                            <img src="assets/images/icons/fire.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <h3 class="title"><a href="#">Anti-incedie</a></h3>
                                             <p>Accelerate innovation with world-class tech teams We’ll match you to
                                                 an entire.</p>
                                         </div>
@@ -85,10 +99,10 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                            <img src="assets/images/icons/network.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <h3 class="title"><a href="#">Réseaux infromatique</a></h3>
                                             <p>Accelerate innovation with world-class tech teams We’ll match you to
                                                 an entire.</p>
                                         </div>
@@ -99,24 +113,10 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon9.png" alt="">
+                                            <img src="assets/images/icons/fibre.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
-                                        </div>
-                                    </div>
-                                    <!-- Choose Us Item End -->
-                                </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
-                                    <div class="choose-us-item-02">
-                                        <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon9.png" alt="">
-                                        </div>
-                                        <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">CONTROLE D'ACCES</a></h3>
+                                            <h3 class="title"><a href="#">Fibre optique</a></h3>
                                             <p>Accelerate innovation with world-class tech teams We’ll match you to
                                                 an entire.</p>
                                         </div>
@@ -128,10 +128,10 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon10.png" alt="">
+                                            <img src="assets/images/icons/control.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">IT Security</a></h3>
+                                            <h3 class="title"><a href="#">Contrôle d’accès</a></h3>
                                             <p>Accelerate innovation with world-class tech teams We’ll match you to
                                                 an entire.</p>
                                         </div>
@@ -142,30 +142,17 @@
                                     <!-- Choose Us Item Start -->
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
-                                            <img src="assets/images/icons/ser-icon12.png" alt="">
+                                            <img src="assets/images/icons/formation.png" alt="">
                                         </div>
                                         <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">RÉSEAUX INFORMATIQUES</a></h3>
+                                            <h3 class="title"><a href="#">Formation</a></h3>
                                             <p>Accelerate innovation with world-class tech teams We’ll match you to
                                                 an entire.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
                                 </div>
-                                <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
-                                    <div class="choose-us-item-02">
-                                        <div class="choose-us-img">
-                                            <img src="assets/images/icons/counter-1.png" alt="">
-                                        </div>
-                                        <div class="choose-us-content">
-                                            <h3 class="title"><a href="#">IT infrastructures </a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
-                                        </div>
-                                    </div>
-                                    <!-- Choose Us Item End -->
-                                </div>
+                               
 
 
 

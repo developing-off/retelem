@@ -21,9 +21,9 @@
                                 <!--  Single Testimonial Start  -->
                                 <div class="single-testimonial">
                                     <img src="assets/images/icons/testi-icon.png" alt="">
-                                    <p>Accelerate innovation with world-class tech teams Beyond more stoic this along goodness hey this this wow manatee </p>
-                                    <span class="name">Mike Holder </span>
-                                    <span class="designation"> / CEO, Harlond inc</span>
+                                    <p style="font-size: 14px!important;line-height:revert!important;    font-weight: bold!important;">RETELEM (ex SONATITE), leader en télécommunications, sécurité industrielle et réception satellitaire, s'engage à rester à la pointe des avancées technologiques pour offrir des services de qualité exceptionnelle à ses clients. Rejoignez-nous pour une expérience de communication et de sécurité de premier ordre! </p>
+                                    <span class="name"> </span>
+                                    <span class="designation">Kamel BENCHLEF / PDG,EPE RETELEM SPA</span>
                                 </div>
                                 <!--  Single Testimonial End  -->
                             </div>

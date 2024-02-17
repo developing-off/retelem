@@ -1,4 +1,4 @@
- <!-- Hero Start -->
+
  <div
  
         class="section techwix-hero-section-04 d-flex align-items-center"
@@ -12,8 +12,8 @@
               <!-- Hero Content Start -->
               <div class="hero-content text-center">
                 
-                <h2 class="title" data-aos="fade-up" data-aos-delay="800">
-                  RETELEM
+                <h2 class="title" style=" line-height: 118px!important;" data-aos="fade-up" data-aos-delay="800">
+                  EPE RETELEM SPA
                 </h2>
                 <p data-aos="fade-up" data-aos-delay="900">
                   LA TECHNOLOGIE ADAPTEE A VOS BESOINS.

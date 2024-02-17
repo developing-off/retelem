@@ -3,8 +3,8 @@
         <!-- Header Wrap Start  -->
         <div class="header-wrap">
             <div class="header-logo">
-                <a class="logo-black" href="index.html"><img src="assets/images/retelem-logo-black.png" alt="" /></a>
-                <a class="logo-white" href="index.html"><img src="assets/images/retelem-logo-black.png" alt="" /></a>
+                <a class="logo-black"  href="index.html"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
+                <a class="logo-white"  href="index.html"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
             </div>
 
             <div class="header-menu d-none d-lg-block">
@@ -13,15 +13,15 @@
                         <a href="#home">ACCUEIL</a>
                     </li>
                     <li>
-                        <a href="#about-us">A propos</a>
+                        <a href="#about-us">A PROPOS</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#services">NOS SERVICES</a>
                     </li>
                     <li>
-                        <a href="#client">Nos-Client</a>
+                        <a href="#client">NOS CLIENTS</a>
                     </li>
-                    <li><a href="#contact">Contact</a></li>
+                    
                 </ul>
             </div>
 
@@ -33,7 +33,7 @@
                 
 
                 <div class="header-btn d-none d-xl-block">
-                    <a class="btn" href="#contact">contactez-nous</a>
+                    <a class="btn" href="#contact">CONTACTEZ-NOUS</a>
                 </div>
                 <!-- Header Toggle Start -->
                 <div class="header-toggle d-lg-none">
@@ -55,7 +55,7 @@
     <div class="offcanvas-header">
         <!-- Offcanvas Logo Start -->
         <div class="offcanvas-logo">
-            <a href="index.html"><img src="assets/images/retelem-logo-white.png" alt="" /></a>
+            <a href="index.html"><img style="width: 190px!important;" src="assets/images/retelem-logo-white.png" alt="" /></a>
         </div>
         <!-- Offcanvas Logo End -->
         <button type="button" class="close-btn" data-bs-dismiss="offcanvas">
@@ -69,15 +69,16 @@
             <ul class="main-menu">
 
                 <li >
-                    <a href="#home">ACCUEIL</a>
+                    <a href="#home">ACCEUIL</a>
                 </li>
                 <li>
-                    <a href="#about-us">A propos</a>
+                    <a href="#about-us">A PROPOS</a>
                 </li>
                 <li>
-                    <a href="#services">Services</a>
+                    <a href="#services">NOS SERVICES</a>
                 </li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">NOS CLIENTS</a></li>
+                <li> <a class="btn" href="#contact">CONTACTEZ-NOUS</a></li>
             </ul>
         </div>
     </div>

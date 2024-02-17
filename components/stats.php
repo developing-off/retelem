@@ -13,11 +13,11 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/counter-1.png" alt="">
+                            <img src="assets/images/client.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">1790</span>
-                            <p>Happy clients</p>
+                            <p>Clients satisfait</p>
                         </div>
                     </div>
                     <!-- Single Counter End -->
@@ -26,11 +26,11 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/counter-2.png" alt="">
+                            <img src="assets/images/projet.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">491</span>
-                            <p>Finished projects</p>
+                            <p>Projets réalisés</p>
                         </div>
                     </div>
                     <!-- Single Counter End -->
@@ -39,11 +39,11 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/counter-3.png" alt="">
+                            <img src="assets/images/certif.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">245</span>
-                            <p>Skilled Experts</p>
+                            <p>Employés certifiés</p>
                         </div>
                     </div>
                     <!-- Single Counter End -->
@@ -52,11 +52,11 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/counter-1.png" alt="">
+                            <img src="assets/images/chiffre.png" alt="">
                         </div>
                         <div class="counter-content">
-                            <span class="counter">1090</span>
-                            <p>Media Posts</p>
+                            <span class="counter">245</span>
+                            <p>Chiffre d'affaire</p>
                         </div>
                     </div>
                     <!-- Single Counter End -->

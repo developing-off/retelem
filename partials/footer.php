@@ -51,15 +51,18 @@
 
                         <div class="widget-link">
                             <ul class="link">
-                                <li><a href="#">Data Security</a></li>
-                                <li><a href="#">IT Managment</a></li>
-                                <li><a href="#">Outsourcing</a></li>
-                                <li><a href="#">Networking</a></li>
+                                <li><a href="#services">Telphonie</a></li>
+                                <li><a href="#services">Video-surveillance</a></li>
+                                <li><a href="#services">Anti-incendie</a></li>
+                                <li><a href="#services">Réseaux informatique</a></li>
+                                <li><a href="#services">Fibre optique</a></li>
+                                <li><a href="#services">Controle d'acccès</a></li>
+                                <li><a href="#services">Formation</a></li>
                             </ul>
                         </div>
                     </div>
                     <!-- Footer Widget End -->
-                </div>
+                    </div>
                 <div class="col-lg-3 col-sm-6">
                     <!-- Footer Widget Start -->
                     <div class="footer-widget">
@@ -110,7 +113,7 @@
                         <!-- Footer Copyright Text Start -->
                         <div class="copyright-text text-center">
                             <p>© Copyrights 2023 RETELM All rights reserved.</p>
-                            <p>By Sarni Younes</p>
+                            <p>By developing_off</p>
                         </div>
                         <!-- Footer Copyright Text End -->
                     </div>

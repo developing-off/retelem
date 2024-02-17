@@ -76,6 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     </html>';
         $mail->send();
+       
         $stat = "Votre message a été envoyé avec succès";
         #echo 'Message has been sent successfully';
        
@@ -88,11 +89,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 
 
-<div class="section techwix-contact-section techwix-contact-section-02 section-padding">
+<div id="contact" class="section techwix-contact-section techwix-contact-section-02 section-padding">
     <div class="container">
         <!-- Contact Wrap Start -->
         <div class="contact-wrap" style="background-image: url(assets/images/shape/contact-shape.png)">
-            <div id="contact" class="row">
+            <div  class="row">
                 <div class="col-xxl-5 col-lg-6">
                     <!-- Contact Info Start -->
                     <div class="contact-info">
@@ -110,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <i class="flaticon-phone-call"></i>
                                     </div>
                                     <div class="contact-info-text">
-                                        <h4 class="title">telephone</h4>
+                                        <h4 class="title">Telephone</h4>
                                         <p>021.96.39.29</p>
                                     </div>
                                 </div>
@@ -123,7 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <i class="flaticon-email"></i>
                                     </div>
                                     <div class="contact-info-text">
-                                        <h4 class="title">Notre email</h4>
+                                        <h4 class="title">Email</h4>
                                         <p>info@retelem-dz.com</p>
                                     </div>
                                 </div>
@@ -136,7 +137,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <i class="flaticon-pin"></i>
                                     </div>
                                     <div class="contact-info-text">
-                                        <h4 class="title">Our Location</h4>
+                                        <h4 class="title">Localisation</h4>
                                         <p>54, Rue Omar Benaissa B,E,O ALGER</p>
                                     </div>
                                 </div>
@@ -151,14 +152,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="contact-form">
                         <div class="contact-form-wrap">
                             <div class="heading-wrap text-center">
-                                <span class="sub-title">Laisse nous un message</span>
+                                <span class="sub-title">Laissez nous un message</span>
                             </div>
                              <?php if (isset($stat)) : ?>
                                 <div class="alert alert-success" role="alert">
                                     <?= $stat ?>
                                 </div>
                             <?php endif; ?>
-                            
+
                             <form method="post">
                                 <div class="row">
                                     <div class="col-sm-6">
@@ -193,7 +194,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <!--  Single Form Start -->
                                         <div class="form-btn">
                                             <button class="btn" type="submit">
-                                                Send Message
+                                                Envoyez
                                             </button>
                                         </div>
                                         <!--  Single Form End -->
