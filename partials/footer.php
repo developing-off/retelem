@@ -36,9 +36,9 @@
                         <div class="widget-link">
                             <ul class="link">
                                 <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">About Company</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">contact</a></li>
+                                <li><a href="#">A propos</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <!-- Footer Widget Start -->
                     <div class="footer-widget">
-                        <h4 class="footer-widget-title">Nous service</h4>
+                        <h4 class="footer-widget-title">Nos service</h4>
 
                         <div class="widget-link">
                             <ul class="link">
@@ -66,7 +66,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <!-- Footer Widget Start -->
                     <div class="footer-widget">
-                        <h4 class="footer-widget-title">Contact Information</h4>
+                        <h4 class="footer-widget-title">Contact</h4>
 
                         <div class="widget-info">
                             <ul>
@@ -112,8 +112,8 @@
                     <div class="col-lg-12">
                         <!-- Footer Copyright Text Start -->
                         <div class="copyright-text text-center">
-                            <p>© Copyrights 2023 RETELM All rights reserved.</p>
-                            <p>By developing_off</p>
+                            <p>© Copyrights <?=date("Y")?> EPE RETELM SPA All rights reserved.</p>
+                            <p>By <a href="https://www.instagram.com/developing_off/">developing_off</a></p>
                         </div>
                         <!-- Footer Copyright Text End -->
                     </div>

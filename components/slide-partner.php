@@ -8,9 +8,9 @@
             <div class="brand-active" id="partnersCarousel">
                 <div class="swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
                     <div class="swiper-wrapper" id="swiper-wrapper-partners" aria-live="polite" style="transform: translate3d(-1100px, 0px, 0px); transition-duration: 0ms;">
-                        <?php for ($i = 1; $i <= 9; $i++) { ?>
+                        <?php for ($i = 1; $i <= 22; $i++) { ?>
                             <div class="swiper-slide single-brand" data-swiper-slide-index="<?php echo $i - 1; ?>" role="group" aria-label="<?php echo $i; ?> / 9" style="width: 190px; margin-right: 30px;">
-                                <img class="brand-image" src="assets/images/client/c<?php echo $i; ?><?php echo in_array($i, [3, 6, 7, 8, 9]) ? '.png' : '.jpg'; ?>" alt="Partner <?php echo $i; ?>">
+                                <img class="brand-image" src="assets/images/partner/p<?php echo $i; ?><?php echo in_array($i, [20]) ? '.jpg' : '.png'; ?>" alt="Partner <?php echo $i; ?>">
                             </div>
                         <?php } ?>
                     </div>
@@ -37,7 +37,7 @@
 
             setTimeout(function () {
                 slidesWrapper.style.transitionDuration = '0ms';
-                if (newTransform <= -(slideWidth * 8)) {
+                if (newTransform <= -(slideWidth * 22)) {
                     slidesWrapper.style.transform = 'translate3d(0px, 0, 0)';
                 }
                 else {

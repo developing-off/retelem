@@ -61,8 +61,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Telphonie</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Communication optimale grâce à notre téléphonie IP : qualité sonore exceptionnelle, fonctionnalités avancées, prix abordable.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
@@ -75,8 +74,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Videosurveillance</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Explorez notre service de vidéosurveillance: qualité d'image exceptionnelle, fonctionnalités avancées, tarifs compétitifs.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
@@ -89,8 +87,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Anti-incedie</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Découvrez notre solution anti-incendie : sécurité avancée, technologies de pointe, accessibilité exceptionnelle.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
@@ -103,8 +100,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Réseaux infromatique</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Découvrez notre solution réseau informatique : performance optimale, fiabilité avancée, innovation technologique.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
@@ -117,8 +113,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Fibre optique</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Explorez la rapidité avec notre service de fibre optique : connexion ultrarapide, stabilité exceptionnelle, expérience Internet inégalée.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
@@ -132,8 +127,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Contrôle d’accès</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Découvrez notre système de contrôle d'accès : sécurité accrue, gestion efficace, tranquillité d'esprit garantie.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
@@ -146,8 +140,7 @@
                                         </div>
                                         <div class="choose-us-content">
                                             <h3 class="title"><a href="#">Formation</a></h3>
-                                            <p>Accelerate innovation with world-class tech teams We’ll match you to
-                                                an entire.</p>
+                                            <p>Enrichissez vos compétences avec notre formation : enseignement de qualité, expertise pratique, parcours d'apprentissage personnalisé.</p>
                                         </div>
                                     </div>
                                     <!-- Choose Us Item End -->
