@@ -57,7 +57,7 @@
                 // Réinitialisation de la position après l'animation
                 setTimeout(function() {
                     wrapper.style.transitionDuration = '0ms';
-                    if (newTransform <= -(slideWidth * 30)) { // Ajustez la valeur 8 en fonction du nombre total d'images
+                    if (newTransform <= -(slideWidth * 28)) { // Ajustez la valeur 8 en fonction du nombre total d'images
                         wrapper.style.transform = 'translate3d(0px, 0, 0)';
                     } else {
                         wrapper.style.transform = 'translate3d(' + newTransform + 'px, 0, 0)';
