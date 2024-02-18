@@ -3,23 +3,23 @@
         <!-- Header Wrap Start  -->
         <div class="header-wrap">
             <div class="header-logo">
-                <a class="logo-black"  href="index.html"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
-                <a class="logo-white"  href="index.html"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
+                <a class="logo-black"  href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
+                <a class="logo-white"  href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
             </div>
 
             <div class="header-menu d-none d-lg-block">
                 <ul class="main-menu">
                     <li >
-                        <a href="#home">ACCUEIL</a>
+                        <a href="<?=$base_url?>#home">ACCUEIL</a>
                     </li>
                     <li>
-                        <a href="#about-us">A PROPOS</a>
+                        <a href="<?=$base_url?>#about-us">A PROPOS</a>
                     </li>
                     <li>
-                        <a href="#services">NOS SERVICES</a>
+                        <a href="<?=$base_url?>#services">NOS SERVICES</a>
                     </li>
                     <li>
-                        <a href="#client">NOS CLIENTS</a>
+                        <a href="<?=$base_url?>#client">NOS CLIENTS</a>
                     </li>
                     
                 </ul>
@@ -55,7 +55,7 @@
     <div class="offcanvas-header">
         <!-- Offcanvas Logo Start -->
         <div class="offcanvas-logo">
-            <a href="index.html"><img style="width: 190px!important;" src="assets/images/retelem-logo-white.png" alt="" /></a>
+            <a href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-white.png" alt="" /></a>
         </div>
         <!-- Offcanvas Logo End -->
         <button type="button" class="close-btn" data-bs-dismiss="offcanvas">
@@ -69,16 +69,16 @@
             <ul class="main-menu">
 
                 <li >
-                    <a href="#home">ACCEUIL</a>
+                    <a href="<?=$base_url?>#home">ACCEUIL</a>
                 </li>
                 <li>
-                    <a href="#about-us">A PROPOS</a>
+                    <a href="<?=$base_url?>#about-us">A PROPOS</a>
                 </li>
                 <li>
-                    <a href="#services">NOS SERVICES</a>
+                    <a href="<?=$base_url?>#services">NOS SERVICES</a>
                 </li>
-                <li><a href="#contact">NOS CLIENTS</a></li>
-                <li> <a class="btn" href="#contact">CONTACTEZ-NOUS</a></li>
+                <li><a href="<?=$base_url?>#contact">NOS CLIENTS</a></li>
+                <li> <a class="btn" href="<?=$base_url?>#contact">CONTACTEZ-NOUS</a></li>
             </ul>
         </div>
     </div>

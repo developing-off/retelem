@@ -6,7 +6,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <!-- Footer Widget Start -->
                     <div class="footer-widget-about">
-                        <a class="footer-logo" href="index.html"><img src="assets/images/RETELEM.png" alt="Logo" /></a>
+                        <a class="footer-logo" href="<?=$base_url?>"><img src="assets/images/RETELEM.png" alt="Logo" /></a>
                       
                         <div class="footer-social">
                             <ul class="social">

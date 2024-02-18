@@ -9,28 +9,35 @@ require "assets/vendor/phpmailer/phpmailer/src/PHPMailer.php";
 require "assets/vendor/phpmailer/phpmailer/src/SMTP.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $sujet = $_POST['sujet'];
+    // In your PHP code
+    if (!empty($_POST['honeypot'])) {
+        echo "<script>console.log('bot');</script>";
+    } else {
+        // Process the form
 
-    $mail = new PHPMailer(true);
 
-    try {
-        $mail->isSMTP();
-        $mail->Host       = 'mail.retelem-dz.com';
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'farid.sarni@retelem-dz.com';
-        $mail->Password   = 'Poulpevolant31/';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $message = $_POST['message'];
+        $sujet = $_POST['sujet'];
 
-        $mail->setFrom($email, $name);
-        $mail->addAddress('farid.sarni@retelem-dz.com', 'farid.sarni@retelem-dz.com');
+        $mail = new PHPMailer(true);
 
-        $mail->isHTML(true);
-        $mail->Subject = 'Contact Us Form Submission';
-        $mail->Body    = 'Name: $name<br>Email: $email<br>Message: $message
+        try {
+            $mail->isSMTP();
+            $mail->Host       = 'mail.retelem-dz.com';
+            $mail->SMTPAuth   = true;
+            $mail->Username   = 'farid.sarni@retelem-dz.com';
+            $mail->Password   = 'Poulpevolant31/';
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->Port       = 587;
+
+            $mail->setFrom($email, $name);
+            $mail->addAddress('farid.sarni@retelem-dz.com', 'farid.sarni@retelem-dz.com');
+
+            $mail->isHTML(true);
+            $mail->Subject = 'Contact Us Form Submission';
+            $mail->Body    = '
    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
     <html xmlns="http://www.w3.org/1999/xhtml">
     
@@ -75,16 +82,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </body>
     
     </html>';
-        $mail->send();
-       
-        $stat = "Votre message a été envoyé avec succès";
-        #echo 'Message has been sent successfully';
-        echo "<script>window.location.href = '{$base_url}success'; </script>";
-       
-    } catch (Exception $e) {
-        $stat = "error";
-        #echo "Error sending message: {$mail->ErrorInfo}";
-        
+            $mail->send();
+
+            $stat = "Votre message a été envoyé avec succès";
+            #echo 'Message has been sent successfully';
+            echo "<script>window.location.href = '{$base_url}home?stat=success#contact'; </script>";
+        } catch (Exception $e) {
+            $stat = "error";
+            echo "<script>window.location.href = '{$base_url}home?stat=error#contact'; </script>";
+            #echo "Error sending message: {$mail->ErrorInfo}";
+
+        }
     }
 }
 ?>
@@ -94,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container">
         <!-- Contact Wrap Start -->
         <div class="contact-wrap" style="background-image: url(assets/images/shape/contact-shape.png)">
-            <div  class="row">
+            <div class="row">
                 <div class="col-xxl-5 col-lg-6">
                     <!-- Contact Info Start -->
                     <div class="contact-info">
@@ -155,11 +163,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                             <div class="heading-wrap text-center">
                                 <span class="sub-title">Laissez nous un message</span>
                             </div>
-                             <?php  if (isset($url[0])) : ?>
-                                <div class="alert alert-success" role="alert">
-                                    <?= 'Votre message a été envoyé avec succès' ?>
-                                </div>
-                            <?php endif; ?>
+                            <?php if (isset($_GET['stat'])) :
+                                if ($_GET['stat'] == 'success') :
+                            ?>
+                                    <div class="alert alert-success" role="alert">
+                                        <?= 'Votre message a été envoyé avec succès' ?>
+                                    </div>
+
+                            <?php
+                                elseif ($_GET['stat'] == 'error') :
+                            ?>
+                                    <div class="alert alert-danger" role="alert">
+                                        <?= 'Erreur lors de l\'envoi du message' ?>
+                                    </div>
+                            <?php
+                                endif;
+
+                            endif; ?>
 
                             <form method="post">
                                 <div class="row">
@@ -191,6 +211,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         </div>
                                         <!-- Single Form End -->
                                     </div>
+                                    <div class="col-sm-12">
+                                        <!-- honeypot -->
+                                        <input type="text" name="honeypot" style="display:none">
+                                    </div>
+
+
                                     <div class="col-sm-12">
                                         <!--  Single Form Start -->
                                         <div class="form-btn">
