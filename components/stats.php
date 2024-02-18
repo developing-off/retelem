@@ -13,7 +13,7 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/client.png" alt="">
+                            <img src="assets/images/icons/client.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">500</span>
@@ -26,7 +26,7 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/projet.png" alt="">
+                            <img src="assets/images/icons/projet.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">491</span>
@@ -39,7 +39,7 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/certif.png" alt="">
+                            <img src="assets/images/icons/certif.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">50</span>
@@ -52,7 +52,7 @@
                     <!-- Single Counter Start -->
                     <div class="single-counter">
                         <div class="counter-img">
-                            <img src="assets/images/chiffre.png" alt="">
+                            <img src="assets/images/icons/chiffre.png" alt="">
                         </div>
                         <div class="counter-content">
                             <span class="counter">1.81</span>M

@@ -1,7 +1,4 @@
-
-   
-
-<div  style=" padding-bottom: 0px!important;" class="section techwix-service-section-04 section-padding">
+<div style=" padding-bottom: 0px!important;" class="section techwix-service-section-04 section-padding">
     <div class="container">
         <!-- Service Wrap Start -->
         <div class="service-wrap">
@@ -53,8 +50,114 @@
                     <div class="choose-us-wrap">
                         <div class="choose-us-content-wrap">
                             <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Telphonie</h3>
+                                                <p>Communication optimale grâce à notre téléphonie IP : qualité sonore exceptionnelle, fonctionnalités avancées, prix abordable.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Videosurveillance</h3>
+                                                <p>Explorez notre service de vidéosurveillance: qualité d'image exceptionnelle, fonctionnalités avancées, tarifs compétitifs.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Anti-incedie</h3>
+                                                <p>Découvrez notre solution anti-incendie : sécurité avancée, technologies de pointe, accessibilité exceptionnelle.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Réseaux infromatique</h3>
+                                                <p>Découvrez notre solution réseau informatique : performance optimale, fiabilité avancée, innovation technologique.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Fibre optique</h3>
+                                                <p>Explorez la rapidité avec notre service de fibre optique : connexion ultrarapide, stabilité exceptionnelle, expérience Internet inégalée.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Contrôle d’accès</h3>
+                                                <p>Découvrez notre système de contrôle d'accès : sécurité accrue, gestion efficace, tranquillité d'esprit garantie.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Formation</h3>
+                                                <p>Enrichissez vos compétences avec notre formation : enseignement de qualité, expertise pratique, parcours d'apprentissage personnalisé.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/shape/experince-shape.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Cyber Security</h3>
+                                                <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software development needs.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                               
+                                <!-- 
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/phone.png" alt="">
@@ -64,10 +167,10 @@
                                             <p>Communication optimale grâce à notre téléphonie IP : qualité sonore exceptionnelle, fonctionnalités avancées, prix abordable.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/cctv.png" alt="">
@@ -77,10 +180,10 @@
                                             <p>Explorez notre service de vidéosurveillance: qualité d'image exceptionnelle, fonctionnalités avancées, tarifs compétitifs.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/fire.png" alt="">
@@ -90,10 +193,10 @@
                                             <p>Découvrez notre solution anti-incendie : sécurité avancée, technologies de pointe, accessibilité exceptionnelle.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/network.png" alt="">
@@ -103,10 +206,10 @@
                                             <p>Découvrez notre solution réseau informatique : performance optimale, fiabilité avancée, innovation technologique.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/fibre.png" alt="">
@@ -116,11 +219,11 @@
                                             <p>Explorez la rapidité avec notre service de fibre optique : connexion ultrarapide, stabilité exceptionnelle, expérience Internet inégalée.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
 
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/control.png" alt="">
@@ -130,10 +233,10 @@
                                             <p>Découvrez notre système de contrôle d'accès : sécurité accrue, gestion efficace, tranquillité d'esprit garantie.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
                                 <div class="col-xl-3 col-lg-4 col-md-6">
-                                    <!-- Choose Us Item Start -->
+                                   
                                     <div class="choose-us-item-02">
                                         <div class="choose-us-img">
                                             <img src="assets/images/icons/formation.png" alt="">
@@ -143,9 +246,9 @@
                                             <p>Enrichissez vos compétences avec notre formation : enseignement de qualité, expertise pratique, parcours d'apprentissage personnalisé.</p>
                                         </div>
                                     </div>
-                                    <!-- Choose Us Item End -->
+                                    
                                 </div>
-                               
+                                -->
 
 
 
