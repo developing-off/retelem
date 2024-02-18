@@ -3,8 +3,8 @@
         <!-- Header Wrap Start  -->
         <div class="header-wrap">
             <div class="header-logo">
-                <a class="logo-black"  href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
-                <a class="logo-white"  href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.png" alt="" /></a>
+                <a class="logo-black"  href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-black.svg" alt="" /></a>
+                <a class="logo-white"  href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-white.svg" alt="" /></a>
             </div>
 
             <div class="header-menu d-none d-lg-block">
@@ -55,7 +55,7 @@
     <div class="offcanvas-header">
         <!-- Offcanvas Logo Start -->
         <div class="offcanvas-logo">
-            <a href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-white.png" alt="" /></a>
+            <a href="<?=$base_url?>"><img style="width: 190px!important;" src="assets/images/retelem-logo-white.svg" alt="" /></a>
         </div>
         <!-- Offcanvas Logo End -->
         <button type="button" class="close-btn" data-bs-dismiss="offcanvas">

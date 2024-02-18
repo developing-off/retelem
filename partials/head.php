@@ -5,7 +5,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="<?= $base_url ?>assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?= $base_url ?>assets/images/retelem-favicon.svg" />
 
     <!-- CSS
       this website is made by Sarni Younes ig:Developing_off you cant delete this is my own work thank you
