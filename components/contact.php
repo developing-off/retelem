@@ -89,8 +89,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<script>window.location.href = '{$base_url}home?stat=success#contact'; </script>";
         } catch (Exception $e) {
             $stat = "error";
-            echo "<script>window.location.href = '{$base_url}home?stat=error#contact'; </script>";
-            #echo "Error sending message: {$mail->ErrorInfo}";
+            #echo "<script>window.location.href = '{$base_url}home?stat=error#contact'; </script>";
+            echo "Error sending message: {$mail->ErrorInfo}";
 
         }
     }

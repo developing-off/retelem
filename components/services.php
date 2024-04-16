@@ -83,7 +83,7 @@
                                             <a href="<?=$base_url?>"><img src="assets/images/services/fire.png" alt=""></a>
                                             <div class="choose-us-content">
                                                 <h3 class="title">Anti-incedie</h3>
-                                                <p>Découvrez notre solution anti-incendie : sécurité avancée, technologies de pointe, accessibilité exceptionnelle.</p>
+                                                <p>Découvrez notre solution anti-incendie : elle allie sécurité avancée, technologies de pointe et une accessibilité exceptionnelle pour tous.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +96,8 @@
                                             <a href="<?=$base_url?>"><img src="assets/images/services/network-informatique.png" alt=""></a>
                                             <div class="choose-us-content">
                                                 <h3 class="title">Réseaux infromatique</h3>
-                                                <p>Découvrez notre solution réseau informatique : performance optimale, fiabilité avancée, innovation technologique.</p>
+                                                <p>
+Explorez notre solution réseau informatique : bénéficiez de performances optimales, d'une fiabilité avancée et d'une innovation technologique de pointe.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -109,7 +110,7 @@
                                             <a href="<?=$base_url?>"><img src="assets/images/services/fibre-optique.png" alt=""></a>
                                             <div class="choose-us-content">
                                                 <h3 class="title">Fibre optique</h3>
-                                                <p>Explorez la rapidité avec notre service de fibre optique : connexion ultrarapide, stabilité exceptionnelle, expérience Internet inégalée.</p>
+                                                <p>Explorez la rapidité avec notre service de fibre optique : bénéficiez d'une connexion ultrarapide, d'une stabilité exceptionnelle et d'une expérience Internet inégalée.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +123,7 @@
                                             <a href="<?=$base_url?>"><img src="assets/images/services/acces.png" alt=""></a>
                                             <div class="choose-us-content">
                                                 <h3 class="title">Contrôle d’accès</h3>
-                                                <p>Découvrez notre système de contrôle d'accès : sécurité accrue, gestion efficace, tranquillité d'esprit garantie.</p>
+                                                <p>Découvrez notre système de contrôle d'accès : garantissant une sécurité accrue, une gestion efficace et une tranquillité d'esprit inégalée.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -145,10 +146,25 @@
                                    
                                     <div class="choose-us-item">
                                         <div class="choose-us-img">
+                                            <a href="<?=$base_url?>"><img src="assets/images/services/development.png" alt=""></a>
+                                            <div class="choose-us-content">
+                                                <h3 class="title">Development</h3>
+                                                <p>Développez vos compétences informatiques avec notre programme de développement : enseignement de pointe, expertise pratique et parcours personnalisé.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                   
+                                    <div class="choose-us-item">
+                                        <div class="choose-us-img">
                                             <a href="<?=$base_url?>"><img src="assets/images/services/cybersecurity.png" alt=""></a>
                                             <div class="choose-us-content">
                                                 <h3 class="title">Cyber Security</h3>
-                                                <p>Accelerate innovation with world-class tech teams We’ll match you to an entire remote team of incredible freelance talent for all your software development needs.</p>
+                                                <p>
+                                                
+Explorez notre service de cybersécurité : expertise de pointe, protection proactive, surveillance constante et tranquillité d'esprit garantie.</p>
                                             </div>
                                         </div>
                                     </div>
